@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2? family= Oswald & display=swap');
+ 
+ 
+ :root{
+     --cor-fundo: #99aab5;
+     --cor-titulo: #2c2f33;
+     --cor-parágrafo: #ffffff;
+     ---cor-link:#0490fc;
+     --fonte: Oswald, verdana;
+ }
+ 
+ 
+ 
+ body {
+      background-color: var(--cor-fundo);
+      font-family: var(--fonte);
+      width: 500px;
+      max-width: 100%;
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-left: auto;
+      margin-right: auto;
+      margin: auto;
+
+  }
+
+  h1 {
+      color: var(--cor-titulo);
+
+  }
+
+
+  p {
+      color: var(--cor-parágrafo);
+      font-family: arial;
+
+  }
+
+
+  img {
+      width: 250px;
+      border-radius: 50%;
+
+  }
+
+
+  ul {
+      list-style: none;
+      padding: 0;
+
+  }
+
+
+ul li {
+    display: inline-block;
+    padding-right: 20px;
+
+}
+
+  ul li a {
+       color: var(---cor-link);
+       font-size: 25px;
+       font-style: italic;
+
+  }
+
+div.imagem {
+    text-align: center;   
+
+}
+  
